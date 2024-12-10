@@ -1,0 +1,72 @@
+*{
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+label{
+  font-size: 20px;
+}
+select, input, textarea{
+  height: 50px;
+  font-size: 15px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
+  gap: 10px;
+
+  background-color: #888888;
+  width: fit-content;
+  border-radius: 25px;
+  padding: 20px
+}
+.feedback-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+
+  background-color: #888888;
+  width: fit-content;
+  border-radius: 25px;
+  box-shadow: -10px 5px 10px #555555;
+  padding: 20px
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0;
+  gap: 20px;
+}
+li{
+  background-color: white;
+
+  box-shadow: 0 0 0 0 transparent;
+  padding: 10px;
+  border-radius: 25px;
+  min-width: 300px;
+  list-style: none;
+  box-sizing: content-box;
+}
+li:hover{
+  transition: 0.2s;
+  box-shadow: -10px 5px 10px #555555;
+}
+button[type="submit"]{
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 15px;
+  border: 0;
+}
